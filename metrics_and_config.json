@@ -1,0 +1,43 @@
+{
+  "best_model": "Random Forest",
+  "validation_auc": 0.9439406276985505,
+  "validation_best_threshold": 0.39763903426763453,
+  "metrics_test_default": {
+    "label": "Default 0.5",
+    "accuracy": 0.9158439877002751,
+    "precision": 0.6016166281755196,
+    "recall": 0.7485632183908046,
+    "f1": 0.6670934699103713,
+    "auc": 0.952688141612214,
+    "confusion_matrix": [
+      [
+        5138,
+        345
+      ],
+      [
+        175,
+        521
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.9671    0.9371    0.9518      5483\n           1     0.6016    0.7486    0.6671       696\n\n    accuracy                         0.9158      6179\n   macro avg     0.7843    0.8428    0.8095      6179\nweighted avg     0.9259    0.9158    0.9198      6179\n"
+  },
+  "metrics_test_tuned": {
+    "label": "Tuned 0.398",
+    "accuracy": 0.9003074931218644,
+    "precision": 0.5353982300884956,
+    "recall": 0.8692528735632183,
+    "f1": 0.6626506024096386,
+    "auc": 0.952688141612214,
+    "confusion_matrix": [
+      [
+        4958,
+        525
+      ],
+      [
+        91,
+        605
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0     0.9820    0.9042    0.9415      5483\n           1     0.5354    0.8693    0.6627       696\n\n    accuracy                         0.9003      6179\n   macro avg     0.7587    0.8868    0.8021      6179\nweighted avg     0.9317    0.9003    0.9101      6179\n"
+  }
+}
